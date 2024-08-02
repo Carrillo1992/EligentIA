@@ -15,7 +15,7 @@ model = joblib.load("model/best_model.joblib")# Random Sampling
  
 
 st.header('Model')
-st.markdown('Introduce the values for the transaction you would like to evaluate', unsafe_allow_html=True)
+st.markdown('Introduce los datos del clientes', unsafe_allow_html=True)
 
 @st.cache_resource
 def prediction(Account_length, Age, Total_income, Years_employed) :
