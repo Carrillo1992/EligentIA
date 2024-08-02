@@ -1,17 +1,8 @@
+!pip install joblib
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pycaret
-from scipy.stats import boxcox
-import zipfile as zp
-
-import plotly.express as px
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go 
-import plotly.subplots as sp
 
 # Page configuration
 st.set_page_config(page_title="EligentIA🕵🏻", layout="wide", page_icon="🔎")
