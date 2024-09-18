@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 import sqlitecloud
 
-st.set_page_config(page_title="RaceIntel🏎️", layout="wide", page_icon="🏁", unsafe_allow_html=True)
+st.set_page_config(page_title="RaceIntel🏎️", layout="wide", page_icon="🏁" )
 
 SQLiteCloud_connectionstring= "sqlitecloud://cqzdwoclsz.sqlite.cloud:8860?apikey=8ZBRx9VjOUr3L8r7arbcH8X27UpFfHwvq7qiaULwWdE"
 conn = sqlitecloud.connect(SQLiteCloud_connectionstring)
