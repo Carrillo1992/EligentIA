@@ -21,17 +21,15 @@ headerbg="""
 }
 </style>
 """
-st.markdown(
-    """
+tablebg=  """
     <style>
     /* Hacer transparente el fondo del st.dataframe */
-    .streamlit-table {
+    [data-testid="data-grid-canvas"] {
         background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
     }
     </style>
-    """,
-    unsafe_allow_html=True
-)
+    """
+st.markdown(tablebg, unsafe_allow_html=True)
 st.markdown(pagebg, unsafe_allow_html=True)
 st.markdown(headerbg, unsafe_allow_html=True)
 SQLiteCloud_connectionstring= "sqlitecloud://cqzdwoclsz.sqlite.cloud:8860?apikey=8ZBRx9VjOUr3L8r7arbcH8X27UpFfHwvq7qiaULwWdE"
