@@ -5,7 +5,19 @@ import joblib
 import sqlitecloud
 
 st.set_page_config(page_title="RaceIntel🏎️", layout="wide", page_icon="🏁" )
+pagebg = """
+<style> 
+[data-testid="stAppViewContainer"]{
+background-color: #090809;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #f74545 25%, transparent 25%), linear-gradient(225deg, #f74545 25%, transparent 25%), linear-gradient(45deg, #f74545 25%, transparent 25%), linear-gradient(315deg, #f74545 25%, #090809 25%);
+background-position:  10px 0, 10px 0, 0 0, 0 0;
+background-size: 10px 10px;
+background-repeat: repeat;
+}
+</style>
 
+st.markdown(pagebg, unsafe_allow_html=True)
 SQLiteCloud_connectionstring= "sqlitecloud://cqzdwoclsz.sqlite.cloud:8860?apikey=8ZBRx9VjOUr3L8r7arbcH8X27UpFfHwvq7qiaULwWdE"
 conn = sqlitecloud.connect(SQLiteCloud_connectionstring)
 cursor = conn.execute("USE DATABASE Formula1.db")
