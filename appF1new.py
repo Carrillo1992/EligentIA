@@ -8,12 +8,8 @@ st.set_page_config(page_title="RaceIntel🏎️", layout="wide", page_icon="🏁
 pagebg = """
 <style> 
 [data-testid="stAppViewContainer"]{
-background-color: #090809;
-opacity: 0.8;
-background-image:  linear-gradient(135deg, #f74545 25%, transparent 25%), linear-gradient(225deg, #f74545 25%, transparent 25%), linear-gradient(45deg, #f74545 25%, transparent 25%), linear-gradient(315deg, #f74545 25%, #090809 25%);
-background-position:  10px 0, 10px 0, 0 0, 0 0;
-background-size: 10px 10px;
-background-repeat: repeat;
+        background: linear-gradient(90deg, red, black);
+        background-attachment: fixed;
 }
 </style>
 """
