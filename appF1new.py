@@ -171,13 +171,9 @@ with col1:
     - **Posición global actual**: La posición actual del piloto en la clasificación general.
                          
     2. Haz clic en el botón **"Predecir"** y obtendrás una predicción de la **posición final** en la que el piloto podría terminar en su próxima carrera.
+    
+    3. En la pestaña **"Predicción de los 10 primeros"** puedes ver la predicción de los 10 primeros pilotos en la próxima carrera, según los datos mas recientes.
     """)
-    # st.markdown("""
-    #             Esta aplicación te permite predecir la posición de los 10 primeros
-    #             puestos en la siguiente carrera de Fórmula 1 utilizando datos clave de su rendimiento reciente. 
-    #             Basándonos en los datos de la última carrera y otros factores relacionados con el rendimiento del piloto,
-    #             la aplicación genera una tabla con la predicción y la probabilidad de que quede en ese puesto.
-    # """)
 with col2:
     tab1, tab2 = st.tabs(["Predicción de un Piloto", "Predicción de los 10 primeros"])
     with tab1:
