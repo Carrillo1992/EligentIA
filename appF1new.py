@@ -16,7 +16,7 @@ background-size: 10px 10px;
 background-repeat: repeat;
 }
 </style>
-
+"""
 st.markdown(pagebg, unsafe_allow_html=True)
 SQLiteCloud_connectionstring= "sqlitecloud://cqzdwoclsz.sqlite.cloud:8860?apikey=8ZBRx9VjOUr3L8r7arbcH8X27UpFfHwvq7qiaULwWdE"
 conn = sqlitecloud.connect(SQLiteCloud_connectionstring)
