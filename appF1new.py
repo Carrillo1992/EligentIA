@@ -171,7 +171,7 @@ with col1:
     - **Posición global actual**: La posición actual del piloto en la clasificación general.
                          
     2. Haz clic en el botón **"Predecir"** y obtendrás una predicción de la **posición final** en la que el piloto podría terminar en su próxima carrera.
-    
+
     3. En la pestaña **"Predicción de los 10 primeros"** puedes ver la predicción de los 10 primeros pilotos en la próxima carrera, según los datos mas recientes.
     """)
 with col2:
@@ -182,10 +182,10 @@ with col2:
         # constructorId=st.radio('Escuderia:',('McLaren','Williams','Ferrari','Red Bull','Kick Sauber','Aston Martin','Mercedes','Haas F1 Team','Alpine','RB'))
         year= 2024
         round= st.slider('Ronda:', 1, 22, disabled=False)
-        grid= st.slider('Pocision de salida:', 1, 21, disabled=False)
+        grid= st.slider('Posición de salida:', 1, 21, disabled=False)
         laps= st.slider('Vueltas en la ultima carrera', 40, 80, disabled=False)
         currentracepoints = st.slider('Puntos actuales:', 0, 25, disabled=False)
-        driverposition = st.slider('Posicion global actual:', 1, 20, disabled=False)
+        driverposition = st.slider('Posición global actual:', 1, 20, disabled=False)
 
 
 
