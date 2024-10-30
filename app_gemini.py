@@ -3,9 +3,8 @@ import os
 import streamlit as st
 from streamlit_option_menu import option_menu
 import google.generativeai as genai
-from dotenv import load_dotenv
 
-load_dotenv()
+
 GOOGLE_API_KEY=''
 genai.configure(api_key=GOOGLE_API_KEY)
 
