@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 import google.generativeai as genai
 
 
-GOOGLE_API_KEY=''
+GOOGLE_API_KEY='AIzaSyDXPZTxd2jebgxjaVmYAPlpbeqbalyVNO0'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def local_css(file_name):
