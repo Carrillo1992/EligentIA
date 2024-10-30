@@ -51,7 +51,7 @@ selected = option_menu("Menu",
                     styles={"container": {"width": "100%","border": "1px ridge  ","background-color": "#DF760B","primaryColor": "#DF760B"},
                                 "icon": {"color": "#F8CD47", "font-size": "20px"}})
 if selected == 'Informe':
-    st.components.v1.iframe('https://app.fabric.microsoft.com/reportEmbed?reportId=52ab961c-a425-4e27-8dcc-3aeb69b890b4&autoAuth=true&ctid=fff29b6d-f524-4b67-91bd-0189cef1a710', height=1024) 
+    st.components.v1.iframe('https://app.fabric.microsoft.com/reportEmbed?reportId=52ab961c-a425-4e27-8dcc-3aeb69b890b4&autoAuth=true&ctid=fff29b6d-f524-4b67-91bd-0189cef1a710', height=600) 
 
 if selected == 'Chatbot':
     new_chat_id = f'{time.time()}'
